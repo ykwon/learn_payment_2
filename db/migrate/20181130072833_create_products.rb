@@ -5,7 +5,6 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.string :subtitle
       t.string :image_name
       t.string :sku
-      t.string :download_url
       t.string :details
       t.text :description
       t.decimal :price
