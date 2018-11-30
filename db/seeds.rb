@@ -9,3 +9,6 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 niceCat = Product.create(title: "Quality Kitty", subtitle:"Learn App code", image_name: "kitty.JPG",
                          price: "4.99", sku: "kitty one", details: "A really nice cat", description: %{<p>it;s a cat</p>})
+
+niceDog = Product.create(title: "Quality Dog", subtitle:"Learn App code", image_name: "dog.JPG",
+                         price: "4.99", sku: "kitty one", details: "A really nice dog", description: %{<p>it;s a dog</p>})
